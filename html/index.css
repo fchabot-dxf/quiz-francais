@@ -4,10 +4,10 @@
 */
 
 :root {
-    --primary: #4f46e5;
-    --primary-hover: #4338ca;
-    --primary-light: #eef2ff;
-    --secondary: #6366f1;
+    --primary: #003399;
+    --primary-hover: #002266;
+    --primary-light: #e6ecf7;
+    --secondary: #2563eb;
     --success: #10b981;
     --success-light: #ecfdf5;
     --error: #ef4444;
@@ -43,50 +43,7 @@ body {
 
 .app-container {
     min-height: 100vh;
-    padding: 2rem 1rem;
-}
-
-.max-width {
-    max-width: 42rem;
-    margin: 0 auto;
-}
-
-/* HEADER */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 3rem;
-}
-
-.logo-group {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.logo-icon {
-    background: var(--primary);
-    padding: 0.6rem;
-    border-radius: 0.75rem;
-    color: white;
-    box-shadow: var(--shadow-indigo);
-}
-
-.logo-text h1 {
-    font-size: 1.25rem;
-    font-weight: 900;
-    letter-spacing: -0.025em;
-    color: #1e1b4b;
-    line-height: 1;
-}
-
-.logo-badge {
-    font-size: 10px;
-    font-weight: 800;
-    color: var(--primary);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+    padding: 2rem 1rem 4rem;
 }
 
 .progress-counter {
@@ -97,6 +54,31 @@ body {
     font-weight: 700;
     color: var(--text-muted);
     border: 1px solid #f1f5f9;
+}
+
+.max-width {
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+
+.abandon-btn {
+    background: #ff0000;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(255, 0, 0, 0.2);
+}
+
+.abandon-btn:hover {
+    background: #cc0000;
+    transform: scale(1.05);
 }
 
 /* CARDS */
@@ -118,17 +100,26 @@ body {
 }
 
 /* WELCOME SCREEN */
-.welcome-icon-box {
+.welcome-logo-container {
+    margin-bottom: 2rem;
+}
+
+.welcome-logo {
+    max-width: 180px;
+    height: auto;
+}
+
+.result-icon-box {
     width: 6rem;
     height: 6rem;
-    background: var(--primary-light);
+    background: #fffbeb;
+    color: #f59e0b;
     border-radius: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 2rem;
     transform: rotate(3deg);
-    color: var(--primary);
 }
 
 .welcome-title {
@@ -340,6 +331,133 @@ body {
 }
 
 /* UTILS */
+.resources-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.resource-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.resource-card:hover {
+    background: white;
+    border-color: var(--primary);
+    box-shadow: 0 4px 12px rgba(0, 51, 153, 0.1);
+    transform: translateY(-2px);
+}
+
+.resource-title {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #1e1b4b;
+    margin-bottom: 0.25rem;
+    padding-right: 1.5rem;
+}
+
+.resource-desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+.resource-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #94a3b8;
+}
+
+.resource-card:hover .resource-icon {
+    color: var(--primary);
+}
+
 .text-center { text-align: center; }
 .mt-10 { margin-top: 2.5rem; }
 .mt-16 { margin-top: 4rem; }
+
+/* RESPONSIVE */
+@media (max-width: 640px) {
+    .app-container {
+        padding: 1rem 0.5rem;
+    }
+
+    .header {
+        margin-bottom: 2rem;
+    }
+
+    .logo-img {
+        height: 2.25rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+    }
+
+    .welcome-title {
+        font-size: 1.5rem;
+    }
+
+    .welcome-desc {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .welcome-icon-box {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .question-text {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .option-btn {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .results-score {
+        font-size: 3.5rem;
+    }
+
+    .feedback-box {
+        margin-top: 1.5rem;
+        padding: 1.25rem;
+    }
+
+    .feedback-text {
+        font-size: 0.9375rem;
+    }
+
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    .category-tag {
+        padding: 0.25rem 0.75rem;
+        font-size: 9px;
+    }
+
+    .logo-badge {
+        display: none;
+    }
+}
