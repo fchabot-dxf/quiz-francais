@@ -873,5 +873,55 @@ export const ponctuationQuestions = [
         correctAnswer: 0,
         explanation: "Le point-virgule permet de clarifier une énumération dont les éléments sont longs ou comportent déjà des virgules.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/le-point-virgule"
+    },
+    {
+        id: "p83",
+        category: "Ponctuation",
+        topic: "Pièges",
+        question: "Doit-on mettre une virgule après 'mais' en début de phrase ?",
+        options: ["Non, sauf si une incise suit immédiatement.", "Oui, toujours.", "C'est facultatif.", "Seulement si la phrase est longue."],
+        correctAnswer: 0,
+        explanation: "En début de phrase, 'mais' n'est normalement pas suivi d'une virgule, sauf pour isoler un élément intercalé.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p84",
+        category: "Ponctuation",
+        topic: "Pièges",
+        question: "Met-on une virgule entre deux adjectifs épithètes ?",
+        options: ["Oui, s'ils sont sur le même plan (coordonnés).", "Non, jamais.", "Seulement si le premier est long.", "Toujours."],
+        correctAnswer: 0,
+        explanation: "Si les adjectifs qualifient séparément le nom (ex: 'une grande, belle maison'), on met une virgule. S'ils forment un bloc (ex: 'une petite fille blonde'), on n'en met pas.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p85",
+        category: "Ponctuation",
+        topic: "Pièges",
+        question: "Faut-il une virgule avant 'ou bien' ?",
+        options: ["Oui, généralement.", "Non, jamais.", "Seulement si la phrase est négative.", "Seulement en fin de phrase."],
+        correctAnswer: 0,
+        explanation: "On met généralement une virgule devant 'ou bien' pour marquer une alternative forte.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p86",
+        category: "Ponctuation",
+        topic: "Pièges",
+        question: "Doit-on mettre une virgule après un 'et' ?",
+        options: ["Non, sauf si une incise suit.", "Oui, toujours.", "Seulement si la phrase est longue.", "Jamais."],
+        correctAnswer: 0,
+        explanation: "Comme pour 'mais', on ne met pas de virgule après 'et' sauf pour isoler un élément intercalé.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p87",
+        category: "Ponctuation",
+        topic: "Pièges",
+        question: "Dans une énumération, met-on une virgule avant le 'etc.' ?",
+        options: ["Oui.", "Non.", "C'est facultatif.", "Seulement si la liste est longue."],
+        correctAnswer: 0,
+        explanation: "On met toujours une virgule avant 'etc.' pour clore l'énumération.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/le-point"
     }
 ];

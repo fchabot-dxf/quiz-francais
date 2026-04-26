@@ -1083,5 +1083,55 @@ export const orthographeQuestions = [
         correctAnswer: 0,
         explanation: "Devant le nom, 'demi' est invariable et lié par un trait d'union.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/ladjectif/accord-de-ladjectif/accord-de-nu-demi-et-mi"
+    },
+    {
+        id: "o109",
+        category: "Orthographe",
+        topic: "Pièges",
+        question: "Comment s'écrit le mot désignant un mauvais rêve ?",
+        options: ["Cauchemar", "Cauchemard"],
+        correctAnswer: 0,
+        explanation: "Attention : il n'y a pas de 'd' à la fin de cauchemar, contrairement à 'tard' ou 'buvard'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/cauchemar"
+    },
+    {
+        id: "o110",
+        category: "Orthographe",
+        topic: "Pièges",
+        question: "Comment s'écrit le mot désignant un choix difficile entre deux options ?",
+        options: ["Dilemme", "Dilème", "Dilemne"],
+        correctAnswer: 0,
+        explanation: "On écrit 'dilemme' avec deux 'm'. L'orthographe 'dilemne' est une erreur fréquente par analogie avec 'indemne'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/dilemme"
+    },
+    {
+        id: "o111",
+        category: "Orthographe",
+        topic: "Pièges",
+        question: "Quel est le pluriel de 'un en-tête' ?",
+        options: ["des en-têtes", "des en-tête"],
+        correctAnswer: 0,
+        explanation: "Le mot 'en-tête' prend un 's' au pluriel.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/le-nom/pluriel-des-noms/pluriel-de-en-tete"
+    },
+    {
+        id: "o112",
+        category: "Orthographe",
+        topic: "Pièges",
+        question: "Comment s'écrit le verbe signifiant 'se poser sur le sol' (pour un avion) ?",
+        options: ["Atterrir", "Atérir", "Atterir"],
+        correctAnswer: 0,
+        explanation: "'Atterrir' prend deux 't' (de terre) et deux 'r'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/atterrir"
+    },
+    {
+        id: "o113",
+        category: "Orthographe",
+        topic: "Pièges",
+        question: "Comment s'écrit le mot désignant une personne qui fabrique des tonneaux ?",
+        options: ["Tonnelier", "Tonelier"],
+        correctAnswer: 0,
+        explanation: "'Tonnelier' prend deux 'n' comme 'tonneau'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/tonnelier"
     }
 ];

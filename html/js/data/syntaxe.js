@@ -1188,5 +1188,55 @@ export const syntaxeQuestions = [
         correctAnswer: 0,
         explanation: "Dans une subordonnée relative exprimant un but ou une recherche d'un élément non encore trouvé, on utilise le subjonctif.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/subjonctif-dans-la-relative"
+    },
+    {
+        id: "s117",
+        category: "Syntaxe",
+        topic: "Pièges",
+        question: "Choisissez la forme correcte : « Il a réussi à ________ ce problème. »",
+        options: ["pallier", "pallier à"],
+        correctAnswer: 0,
+        explanation: "Attention : 'pallier' est un verbe transitif direct. On dit 'pallier quelque chose' et non 'pallier à quelque chose'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22370/le-vocabulaire/mots-et-expressions-dont-lusage-est-critique/pallier"
+    },
+    {
+        id: "s118",
+        category: "Syntaxe",
+        topic: "Pièges",
+        question: "Choisissez la forme correcte : « Je me ________ ce moment. »",
+        options: ["rappelle", "rappelle de"],
+        correctAnswer: 0,
+        explanation: "On dit 'se rappeler quelque chose' (direct) mais 'se souvenir de quelque chose' (indirect).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22409/le-vocabulaire/mots-et-expressions-dont-lusage-est-critique/se-rappeler-et-se-souvenir"
+    },
+    {
+        id: "s119",
+        category: "Syntaxe",
+        topic: "Pièges",
+        question: "L'expression 'demander à ce que' (ex: il demande à ce qu'on vienne) est :",
+        options: ["Correcte.", "Une tournure à éviter au profit de 'demander que'.", "Soutenue.", "Un anglicisme."],
+        correctAnswer: 1,
+        explanation: "Bien que fréquente, la tournure 'demander à ce que' est critiquée. On préfère 'demander que' ou 'demander de'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22340/le-vocabulaire/mots-et-expressions-dont-lusage-est-critique/demander-a-ce-que"
+    },
+    {
+        id: "s120",
+        category: "Syntaxe",
+        topic: "Pièges",
+        question: "Choisissez la forme correcte : « ________ qu'il dise, je n'y croirai pas. »",
+        options: ["Quoi", "Quoique"],
+        correctAnswer: 0,
+        explanation: "On écrit 'Quoi qu'il dise' (quelle que soit la chose qu'il dise). 'Quoique' signifie 'bien que'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22158/la-grammaire/les-pro-mots/quoique-et-quoi-que"
+    },
+    {
+        id: "s121",
+        category: "Syntaxe",
+        topic: "Pièges",
+        question: "L'usage de 'malgré que' au sens de 'bien que' est :",
+        options: ["Correct seulement avec 'en avoir'.", "Correct dans tous les cas.", "Toujours faux.", "Un anglicisme."],
+        correctAnswer: 0,
+        explanation: "En français soutenu, on n'utilise 'malgré que' que dans l'expression 'malgré qu'il en ait'. Sinon, on utilise 'bien que'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22361/le-vocabulaire/mots-et-expressions-dont-lusage-est-critique/malgre-que"
     }
 ];

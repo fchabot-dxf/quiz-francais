@@ -1288,5 +1288,55 @@ export const lexiqueQuestions = [
         correctAnswer: 0,
         explanation: "Attention à l'orthographe : 'satyrique' (mythologie) vs 'satirique' (critique). Ici la question porte sur le sens mythologique.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/paronymes/satirique-et-satyrique"
+    },
+    {
+        id: "l129",
+        category: "Lexique",
+        topic: "Pièges",
+        question: "Que signifie 'achalandé' pour un commerce ?",
+        options: ["Qui a beaucoup de clients.", "Qui a beaucoup de marchandises.", "Qui est situé au centre-ville.", "Qui est fermé."],
+        correctAnswer: 0,
+        explanation: "Attention : 'achalandé' vient de 'chaland' (client). Un magasin achalandé est un magasin qui a beaucoup de clients. Pour les marchandises, on dit 'bien approvisionné'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/achalande"
+    },
+    {
+        id: "l130",
+        category: "Lexique",
+        topic: "Pièges",
+        question: "L'usage de 'opportunité' au sens d'occasion (ex: une opportunité d'emploi) est :",
+        options: ["Un anglicisme.", "Correct.", "Soutenu.", "Rare."],
+        correctAnswer: 0,
+        explanation: "En français, l'opportunité est le caractère de ce qui est opportun (qui vient au bon moment). Pour 'opportunity', utilisez 'occasion' ou 'possibilité'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/24361/le-vocabulaire/anglicismes/anglicismes-semantiques/opportunite"
+    },
+    {
+        id: "l131",
+        category: "Lexique",
+        topic: "Pièges",
+        question: "Que signifie 'initialiser' dans un contexte non informatique ?",
+        options: ["C'est une impropriété pour 'amorcer' ou 'lancer'.", "C'est correct pour 'commencer'.", "C'est un terme soutenu.", "C'est un synonyme de 'créer'."],
+        correctAnswer: 0,
+        explanation: "Sauf en informatique, 'initialiser' est souvent utilisé à tort pour 'entreprendre', 'instaurer' ou 'mettre en œuvre'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21831/le-vocabulaire/expressions/initialiser"
+    },
+    {
+        id: "l132",
+        category: "Lexique",
+        topic: "Pièges",
+        question: "Que signifie 'infatigable' ?",
+        options: ["Qu'on ne peut pas fatiguer.", "Qui ne se fatigue jamais.", "Qui fatigue les autres.", "Qui est très lent."],
+        correctAnswer: 0,
+        explanation: "Une personne infatigable possède une endurance telle qu'elle semble ne jamais se lasser.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/infatigable"
+    },
+    {
+        id: "l133",
+        category: "Lexique",
+        topic: "Pièges",
+        question: "Que signifie 'équitable' ?",
+        options: ["Qui est juste et impartial.", "Qui est égal pour tous.", "Qui est lié aux chevaux.", "Qui est rapide."],
+        correctAnswer: 0,
+        explanation: "L'équité consiste à traiter chacun selon ses besoins et ses mérites, ce qui diffère de l'égalité stricte.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/equitable"
     }
 ];
