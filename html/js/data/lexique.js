@@ -1338,5 +1338,45 @@ export const lexiqueQuestions = [
         correctAnswer: 0,
         explanation: "L'équité consiste à traiter chacun selon ses besoins et ses mérites, ce qui diffère de l'égalité stricte.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/equitable"
+    },
+    {
+        id: "l134",
+        category: "Lexique",
+        topic: "Pièges",
+        question: "Quelle est la différence entre 'éminent' et 'imminent' ?",
+        options: ["Éminent = remarquable; Imminent = très prochain.", "Éminent = prochain; Imminent = remarquable.", "Ce sont des synonymes.", "Ils ont des sens opposés."],
+        correctAnswer: 0,
+        explanation: "Un savant éminent (remarquable) attend un départ imminent (qui va arriver très bientôt).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/paronymes/eminent-et-imminent"
+    },
+    {
+        id: "l135",
+        category: "Lexique",
+        topic: "Pièges",
+        question: "Quelle est la différence entre 'infecter' et 'infester' ?",
+        options: ["Infecter = microbes; Infester = parasites/ennemis.", "Infecter = parasites; Infester = microbes.", "Infecter = odeur; Infester = maladie.", "Ce sont des synonymes."],
+        correctAnswer: 0,
+        explanation: "On infecte une plaie (microbes), mais on infeste une maison de rats (parasites).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/paronymes/infecter-et-infester"
+    },
+    {
+        id: "l136",
+        category: "Lexique",
+        topic: "Pièges",
+        question: "L'usage de 'céduler' (ex: céduler une rencontre) est :",
+        options: ["Un anglicisme.", "Correct.", "Soutenu.", "Rare."],
+        correctAnswer: 0,
+        explanation: "'Céduler' est un calque de 'to schedule'. Utilisez 'fixer', 'prévoir', 'organiser' ou 'mettre à l'horaire'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22312/le-vocabulaire/anglicismes/anglicismes-semantiques/ceduler"
+    },
+    {
+        id: "l137",
+        category: "Lexique",
+        topic: "Pièges",
+        question: "Le mot 'balade' (avec un seul 'l') désigne :",
+        options: ["Une promenade.", "Une chanson ou un poème.", "Un type de danse.", "Un instrument."],
+        correctAnswer: 1,
+        explanation: "Une 'balade' (deux 'l') est une promenade. Une 'ballade' (deux 'l') est une forme poétique ou musicale. (Note: le 'l' unique est une erreur fréquente pour la promenade).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/paronymes/balade-et-ballade"
     }
 ];

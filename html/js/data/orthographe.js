@@ -1133,5 +1133,45 @@ export const orthographeQuestions = [
         correctAnswer: 0,
         explanation: "'Tonnelier' prend deux 'n' comme 'tonneau'.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/tonnelier"
+    },
+    {
+        id: "o114",
+        category: "Orthographe",
+        topic: "Pièges",
+        question: "Comment s'écrit le verbe signifiant 'rendre plus grave' ?",
+        options: ["Aggraver", "Agraver"],
+        correctAnswer: 0,
+        explanation: "'Aggraver' prend deux 'g'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/aggraver"
+    },
+    {
+        id: "o115",
+        category: "Orthographe",
+        topic: "Pièges",
+        question: "Comment s'écrit le verbe signifiant 'calmer' ?",
+        options: ["Apaiser", "Appaiser"],
+        correctAnswer: 0,
+        explanation: "'Apaiser' ne prend qu'un seul 'p'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/apaiser"
+    },
+    {
+        id: "o116",
+        category: "Orthographe",
+        topic: "Pièges",
+        question: "Comment s'écrit le mot désignant l'action de faire progresser ?",
+        options: ["Développement", "Développment", "Dévelopement"],
+        correctAnswer: 0,
+        explanation: "'Développement' prend deux 'p' et deux 'n' (ment).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/developpement"
+    },
+    {
+        id: "o117",
+        category: "Orthographe",
+        topic: "Pièges",
+        question: "Comment s'écrit le mot désignant ce qui n'est pas clair ?",
+        options: ["Ambiguïté", "Ambiguïté", "Ambiguité"],
+        correctAnswer: 0,
+        explanation: "On met un tréma sur le 'i' pour prononcer le 'u'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/ambiguite"
     }
 ];

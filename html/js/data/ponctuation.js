@@ -923,5 +923,45 @@ export const ponctuationQuestions = [
         correctAnswer: 0,
         explanation: "On met toujours une virgule avant 'etc.' pour clore l'énumération.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/le-point"
+    },
+    {
+        id: "p88",
+        category: "Ponctuation",
+        topic: "Pièges",
+        question: "Met-on une virgule entre un sujet et son verbe ?",
+        options: ["Non, sauf si une incise les sépare.", "Oui, toujours.", "Seulement si le sujet est long.", "C'est facultatif."],
+        correctAnswer: 0,
+        explanation: "La règle d'or est de ne jamais séparer le sujet du verbe par une seule virgule, peu importe la longueur du sujet.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p89",
+        category: "Ponctuation",
+        topic: "Pièges",
+        question: "Doit-on mettre une virgule devant 'car' ?",
+        options: ["Oui, elle est généralement obligatoire.", "Non, jamais.", "Seulement si la phrase est longue.", "C'est facultatif."],
+        correctAnswer: 0,
+        explanation: "On met presque toujours une virgule devant 'car' pour marquer la cause.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p90",
+        category: "Ponctuation",
+        topic: "Pièges",
+        question: "Doit-on mettre une virgule devant 'parce que' ?",
+        options: ["Non, sauf si on veut mettre la cause en relief.", "Oui, toujours.", "C'est obligatoire.", "Seulement en début de phrase."],
+        correctAnswer: 0,
+        explanation: "Contrairement à 'car', 'parce que' n'est normalement pas précédé d'une virgule, sauf effet de mise en relief.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p91",
+        category: "Ponctuation",
+        topic: "Pièges",
+        question: "Les deux-points peuvent-ils introduire une explication ?",
+        options: ["Oui, c'est l'un de leurs rôles principaux.", "Non, seulement des citations.", "Seulement dans les textes scientifiques.", "Seulement après un verbe."],
+        correctAnswer: 0,
+        explanation: "Les deux-points servent à annoncer une explication, une cause ou une conséquence.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/les-deux-points"
     }
 ];

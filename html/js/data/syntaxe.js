@@ -1238,5 +1238,45 @@ export const syntaxeQuestions = [
         correctAnswer: 0,
         explanation: "En français soutenu, on n'utilise 'malgré que' que dans l'expression 'malgré qu'il en ait'. Sinon, on utilise 'bien que'.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22361/le-vocabulaire/mots-et-expressions-dont-lusage-est-critique/malgre-que"
+    },
+    {
+        id: "s122",
+        category: "Syntaxe",
+        topic: "Pièges",
+        question: "Choisissez la forme correcte : « Il est ________ partir. »",
+        options: ["prêt à", "près de"],
+        correctAnswer: 0,
+        explanation: "On utilise 'prêt à' pour exprimer une préparation (volonté) et 'près de' pour la proximité dans le temps (sur le point de). Ici, le sens est la préparation.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22401/le-vocabulaire/mots-et-expressions-dont-lusage-est-critique/pret-a-et-pres-de"
+    },
+    {
+        id: "s123",
+        category: "Syntaxe",
+        topic: "Pièges",
+        question: "Comment s'écrit la préposition signifiant 'au milieu de' ?",
+        options: ["Parmi", "Parmis"],
+        correctAnswer: 0,
+        explanation: "Attention : 'parmi' ne prend jamais de 's'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/parmi"
+    },
+    {
+        id: "s124",
+        category: "Syntaxe",
+        topic: "Pièges",
+        question: "Comment s'écrit la préposition signifiant 'excepté' ?",
+        options: ["Hormis", "Hormi"],
+        correctAnswer: 0,
+        explanation: "Attention : 'hormis' prend toujours un 's'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/hormis"
+    },
+    {
+        id: "s125",
+        category: "Syntaxe",
+        topic: "Pièges",
+        question: "L'usage de 'en date du' (ex: une lettre en date du 1er mai) est :",
+        options: ["Correct.", "Une impropriété.", "Un anglicisme.", "Soutenu."],
+        correctAnswer: 0,
+        explanation: "Cette locution est tout à fait correcte dans le langage administratif ou commercial.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22328/le-vocabulaire/expressions/en-date-du"
     }
 ];
