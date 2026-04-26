@@ -1118,5 +1118,75 @@ export const syntaxeQuestions = [
         correctAnswer: 0,
         explanation: "Ici 'le peu' signifie 'le petit nombre', l'idée de pluralité l'emporte, donc pluriel.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21650/la-grammaire/le-verbe/accord-du-verbe/accord-du-verbe-apres-le-peu-de"
+    },
+    {
+        id: "s110",
+        category: "Syntaxe",
+        topic: "Ne explétif",
+        question: "Choisissez la forme correcte : « Je crains qu'il ne ________. »",
+        options: ["vienne", "vienne pas"],
+        correctAnswer: 0,
+        explanation: "Après un verbe de crainte, on utilise souvent le 'ne' explétif qui n'a pas de valeur négative. 'Il ne vienne' signifie qu'on a peur qu'il vienne.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/la-phrase/types-de-phrases/le-ne-expletif"
+    },
+    {
+        id: "s111",
+        category: "Syntaxe",
+        topic: "Ne explétif",
+        question: "Choisissez la forme correcte : « Il est plus riche qu'il ne ________. »",
+        options: ["le semble", "le semble pas"],
+        correctAnswer: 0,
+        explanation: "Après un comparatif d'inégalité (plus, moins, mieux), on utilise le 'ne' explétif.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/la-phrase/types-de-phrases/le-ne-expletif"
+    },
+    {
+        id: "s112",
+        category: "Syntaxe",
+        topic: "Accord du verbe avec 'le peu de'",
+        question: "Choisissez la forme correcte : « Le peu d'affection qu'il m'a ________ m'a touché. »",
+        options: ["montré", "montrée"],
+        correctAnswer: 0,
+        explanation: "Si 'le peu' exprime une petite quantité suffisante (positive), on accorde avec 'le peu' (singulier).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21650/la-grammaire/le-verbe/accord-du-verbe/accord-du-verbe-apres-le-peu-de"
+    },
+    {
+        id: "s113",
+        category: "Syntaxe",
+        topic: "Accord du verbe avec 'un des... qui'",
+        question: "Choisissez la forme correcte : « C'est l'un de vous qui ________ raison. »",
+        options: ["avez", "a"],
+        correctAnswer: 0,
+        explanation: "L'antécédent de 'qui' est 'vous' (2e personne pluriel).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21650/la-grammaire/le-verbe/accord-du-verbe/accord-du-verbe-apres-cest-qui"
+    },
+    {
+        id: "s114",
+        category: "Syntaxe",
+        topic: "Accord du verbe avec 'ni... ni...'",
+        question: "Choisissez la forme correcte : « Ni l'un ni l'autre ne ________ élu. »",
+        options: ["sera", "seront"],
+        correctAnswer: 0,
+        explanation: "Si l'action ne peut être accomplie que par un seul (un seul poste d'élu), on utilise le singulier.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21650/la-grammaire/le-verbe/accord-du-verbe/accord-du-verbe-apres-ni-l-un-ni-l-autre"
+    },
+    {
+        id: "s115",
+        category: "Syntaxe",
+        topic: "Modes verbaux",
+        question: "Choisissez la forme correcte : « Pourvu qu'il ________. »",
+        options: ["vienne", "vient"],
+        correctAnswer: 0,
+        explanation: "Après 'pourvu que', on utilise toujours le subjonctif.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/subjonctif"
+    },
+    {
+        id: "s116",
+        category: "Syntaxe",
+        topic: "Modes verbaux",
+        question: "Choisissez la forme correcte : « Je cherche un guide qui ________ cette région. »",
+        options: ["connaisse", "connait"],
+        correctAnswer: 0,
+        explanation: "Dans une subordonnée relative exprimant un but ou une recherche d'un élément non encore trouvé, on utilise le subjonctif.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21324/la-grammaire/le-verbe/modes/subjonctif-dans-la-relative"
     }
 ];

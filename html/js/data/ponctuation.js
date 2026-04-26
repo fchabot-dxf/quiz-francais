@@ -803,5 +803,75 @@ export const ponctuationQuestions = [
         correctAnswer: 0,
         explanation: "On ne met jamais de point final à un titre ou un intertitre.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/le-point"
+    },
+    {
+        id: "p76",
+        category: "Ponctuation",
+        topic: "Virgule",
+        question: "Doit-on mettre une virgule avant 'et' si le sujet change ?",
+        options: ["Oui, c'est préférable pour la clarté.", "Non, jamais.", "Seulement si la phrase est courte.", "C'est interdit."],
+        correctAnswer: 0,
+        explanation: "Lorsque 'et' unit deux propositions ayant des sujets différents, la virgule est souvent utilisée pour faciliter la lecture.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p77",
+        category: "Ponctuation",
+        topic: "Virgule",
+        question: "Doit-on mettre une virgule avant 'et' si celui-ci est répété plus de deux fois ?",
+        options: ["Oui, on met une virgule devant chaque 'et'.", "Non, le 'et' remplace la virgule.", "Seulement devant le dernier.", "Seulement si on veut insister."],
+        correctAnswer: 0,
+        explanation: "Dans une énumération où 'et' est répété par effet de style (polysyndète), on met généralement une virgule devant chaque 'et'.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p78",
+        category: "Ponctuation",
+        topic: "Deux-points",
+        question: "Peut-on mettre un point d'interrogation juste avant les deux-points ?",
+        options: ["Oui, si la citation introduite est une question.", "Non, c'est impossible.", "Seulement dans les textes scientifiques.", "Seulement après un nom propre."],
+        correctAnswer: 0,
+        explanation: "C'est possible dans certains contextes très précis de dialogue ou de citation, bien que rare.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/les-deux-points"
+    },
+    {
+        id: "p79",
+        category: "Ponctuation",
+        topic: "Points de suspension",
+        question: "Si les points de suspension terminent une phrase, doit-on ajouter un point final ?",
+        options: ["Non, ils servent de point final.", "Oui, pour la clarté.", "C'est facultatif.", "Seulement si la phrase est longue."],
+        correctAnswer: 0,
+        explanation: "Les trois points de suspension suffisent à terminer la phrase.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/les-points-de-suspension"
+    },
+    {
+        id: "p80",
+        category: "Ponctuation",
+        topic: "Guillemets",
+        question: "Si une citation se termine par un point d'exclamation, où se place le point final de la phrase porteuse ?",
+        options: ["Il est supprimé.", "Après les guillemets fermants.", "Avant les guillemets fermants.", "On met les deux."],
+        correctAnswer: 0,
+        explanation: "Si la citation finit par une ponctuation forte (!, ?), le point final de la phrase principale est omis.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-ponctuation-et-les-guillemets"
+    },
+    {
+        id: "p81",
+        category: "Ponctuation",
+        topic: "Virgule",
+        question: "Doit-on mettre une virgule avant 'ainsi que' ?",
+        options: ["Oui, si on veut marquer une addition détachée.", "Non, jamais.", "Seulement en fin de phrase.", "C'est obligatoire."],
+        correctAnswer: 0,
+        explanation: "La virgule permet de distinguer l'addition simple de la comparaison.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/la-virgule"
+    },
+    {
+        id: "p82",
+        category: "Ponctuation",
+        topic: "Point-virgule",
+        question: "Le point-virgule peut-il introduire une énumération complexe dont les éléments contiennent déjà des virgules ?",
+        options: ["Oui, c'est son usage principal dans les listes.", "Non, on utilise les deux-points.", "Seulement dans les contrats.", "C'est interdit."],
+        correctAnswer: 0,
+        explanation: "Le point-virgule permet de clarifier une énumération dont les éléments sont longs ou comportent déjà des virgules.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21053/la-ponctuation/les-signes-de-ponctuation/le-point-virgule"
     }
 ];

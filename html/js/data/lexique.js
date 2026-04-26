@@ -1208,5 +1208,85 @@ export const lexiqueQuestions = [
         correctAnswer: 0,
         explanation: "Ce qui est insidieux constitue un piège qui se développe sans qu'on s'en aperçoive.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/insidieux"
+    },
+    {
+        id: "l121",
+        category: "Lexique",
+        topic: "Définitions",
+        question: "Que signifie 'obsidional' ?",
+        options: ["Relatif à un siège (militaire).", "Qui est très sombre.", "Qui est lié aux oiseaux.", "Qui est solide."],
+        correctAnswer: 0,
+        explanation: "L'adjectif obsidional qualifie ce qui concerne le siège d'une ville (ex: une fièvre obsidionale).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/obsidional"
+    },
+    {
+        id: "l122",
+        category: "Lexique",
+        topic: "Définitions",
+        question: "Que signifie 'pusillanime' ?",
+        options: ["Qui manque d'audace, de courage.", "Qui est très méchant.", "Qui est riche.", "Qui est bruyant."],
+        correctAnswer: 0,
+        explanation: "Une personne pusillanime craint les responsabilités et les risques.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/pusillanime"
+    },
+    {
+        id: "l123",
+        category: "Lexique",
+        topic: "Définitions",
+        question: "Que signifie 'épistémologie' ?",
+        options: ["L'étude de la connaissance.", "L'étude des épices.", "L'étude des épidémies.", "L'étude des lettres."],
+        correctAnswer: 0,
+        explanation: "L'épistémologie est la partie de la philosophie qui étudie les fondements et les méthodes des sciences.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/epistemologie"
+    },
+    {
+        id: "l124",
+        category: "Lexique",
+        topic: "Définitions",
+        question: "Que signifie 'sybarite' ?",
+        options: ["Une personne qui recherche les plaisirs dans le luxe.", "Un moine mendiant.", "Un soldat d'élite.", "Un outil de jardinage."],
+        correctAnswer: 0,
+        explanation: "Un sybarite est quelqu'un qui aime vivre dans la mollesse et le raffinement excessif.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/sybarite"
+    },
+    {
+        id: "l125",
+        category: "Lexique",
+        topic: "Définitions",
+        question: "Que signifie 'malingre' ?",
+        options: ["De constitution frêle et maladive.", "Qui est très intelligent.", "Qui est méchant.", "Qui est rapide."],
+        correctAnswer: 0,
+        explanation: "Un enfant malingre est chétif et semble souvent souffrant.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/malingre"
+    },
+    {
+        id: "l126",
+        category: "Lexique",
+        topic: "Définitions",
+        question: "Que signifie 'obséquiosité' ?",
+        options: ["Le caractère d'une personne polie à l'excès.", "La haine profonde.", "La grande richesse.", "La fin d'une chose."],
+        correctAnswer: 0,
+        explanation: "L'obséquiosité est une politesse exagérée et souvent hypocrite.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/obsequieux"
+    },
+    {
+        id: "l127",
+        category: "Lexique",
+        topic: "Définitions",
+        question: "Que signifie 'abject' ?",
+        options: ["Qui inspire le dégoût moral.", "Qui est très beau.", "Qui est lié au futur.", "Qui est transparent."],
+        correctAnswer: 0,
+        explanation: "Ce qui est abject est méprisable, ignoble.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/abject"
+    },
+    {
+        id: "l128",
+        category: "Lexique",
+        topic: "Définitions",
+        question: "Que signifie 'satyrique' ?",
+        options: ["Relatif aux satyres (mythologie).", "Qui contient une critique moqueuse.", "Qui est très triste.", "Qui est lié à la lune."],
+        correctAnswer: 0,
+        explanation: "Attention à l'orthographe : 'satyrique' (mythologie) vs 'satirique' (critique). Ici la question porte sur le sens mythologique.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/paronymes/satirique-et-satyrique"
     }
 ];

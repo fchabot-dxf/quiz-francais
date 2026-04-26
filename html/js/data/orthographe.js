@@ -1003,5 +1003,85 @@ export const orthographeQuestions = [
         correctAnswer: 0,
         explanation: "Dans 'jupe-culotte', les deux éléments s'accordent au pluriel, mais ici on est au singulier.",
         bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/le-nom/pluriel-des-noms/pluriel-des-noms-composes"
+    },
+    {
+        id: "o101",
+        category: "Orthographe",
+        topic: "Pluriel des noms",
+        question: "Quel est le pluriel de 'un perce-neige' (orthographe traditionnelle) ?",
+        options: ["des perce-neige", "des perce-neiges"],
+        correctAnswer: 0,
+        explanation: "Traditionnellement, 'neige' reste au singulier car on perce LA neige. (Note: les rectifications de 1990 admettent 'perce-neiges').",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/le-nom/pluriel-des-noms/pluriel-des-noms-composes"
+    },
+    {
+        id: "o102",
+        category: "Orthographe",
+        topic: "Pluriel des noms",
+        question: "Quel est le pluriel de 'un après-midi' ?",
+        options: ["des après-midi", "des après-midis", "Les deux sont admis"],
+        correctAnswer: 2,
+        explanation: "Les deux formes sont acceptées pour le pluriel de ce nom.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/le-nom/pluriel-des-noms/pluriel-des-noms-composes"
+    },
+    {
+        id: "o103",
+        category: "Orthographe",
+        topic: "Pluriel des noms",
+        question: "Quel est le pluriel de 'un gratte-ciel' ?",
+        options: ["des gratte-ciel", "des gratte-ciels"],
+        correctAnswer: 0,
+        explanation: "Traditionnellement invariable car on gratte LE ciel. (Rectifications de 1990 : gratte-ciels).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/le-nom/pluriel-des-noms/pluriel-des-noms-composes"
+    },
+    {
+        id: "o104",
+        category: "Orthographe",
+        topic: "Homophones",
+        question: "Choisissez la forme correcte : « Une ________ de vers. »",
+        options: ["centurie", "centon"],
+        correctAnswer: 1,
+        explanation: "Un 'centon' est un ouvrage littéraire composé de morceaux empruntés à d'autres auteurs. 'Centurie' désigne un groupe de cent.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/22424/lexique/definitions/centon"
+    },
+    {
+        id: "o105",
+        category: "Orthographe",
+        topic: "Noms en -ou",
+        question: "Lequel de ces mots prend un 'x' au pluriel ?",
+        options: ["Hibou", "Clou", "Trou", "Sou"],
+        correctAnswer: 0,
+        explanation: "Les 7 exceptions en -ou prenant un 'x' sont : bijou, caillou, chou, genou, hibou, joujou, pou.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/le-nom/pluriel-des-noms/pluriel-des-noms-en-ou"
+    },
+    {
+        id: "o106",
+        category: "Orthographe",
+        topic: "Noms en -eu",
+        question: "Lequel de ces mots prend un 's' au pluriel ?",
+        options: ["Pneu", "Cheveu", "Vœu", "Feu"],
+        correctAnswer: 0,
+        explanation: "Les exceptions en -eu prenant un 's' sont : pneu, bleu, émeu, landau (en -au), sarrau (en -au).",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/le-nom/pluriel-des-noms/pluriel-des-noms-en-eu"
+    },
+    {
+        id: "o107",
+        category: "Orthographe",
+        topic: "Accord de 'nu'",
+        question: "Choisissez la forme correcte : « Elle marche ________-pieds. »",
+        options: ["nu", "nue"],
+        correctAnswer: 0,
+        explanation: "Placé devant le nom et lié par un trait d'union, 'nu' est invariable.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/ladjectif/accord-de-ladjectif/accord-de-nu-demi-et-mi"
+    },
+    {
+        id: "o108",
+        category: "Orthographe",
+        topic: "Accord de 'demi'",
+        question: "Choisissez la forme correcte : « Une ________-heure. »",
+        options: ["demi", "demie"],
+        correctAnswer: 0,
+        explanation: "Devant le nom, 'demi' est invariable et lié par un trait d'union.",
+        bdlLink: "https://vitrinelinguistique.oqlf.gouv.qc.ca/21731/la-grammaire/ladjectif/accord-de-ladjectif/accord-de-nu-demi-et-mi"
     }
 ];
